@@ -1,5 +1,5 @@
 # CSS-Recap-Demo
-This project is made to learn to use collectors, position, rem 
+This project is made to learn to use collectors, positions, rems. 
 
 [Click to see the orjinal version of the web page.](https://css-recap.netlify.app/#)
 
