@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/**** NAVBAR-TOP*/
+nav.navbar__top {
+  background-image: linear-gradient(to right, lightgray, purple);
+  opacity: 0.8;
+  vertical-align: middle;
+  height: 90px;
+}
+
+img {
+  width: 50px;
+  border: 1px solid #a71818;
+  outline: 5px solid red;
+  outline-offset: 3px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+nav.navbar a img {
+  margin-left: 10px;
+}
+.sign-in {
+  float: right;
+  vertical-align: middle;
+  color: white;
+  margin: 2rem 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.sign-in a {
+  color: white;
+  text-decoration: none;
+}
+.sign-in a:hover {
+  color: black;
+}
+
+/**** NAVBAR-MAIN */
+nav.navbar__main {
+  position: sticky;
+  top: 0px;
+  background-color: #ffaa53;
+  text-align: center;
+  padding: 32px;
+}
+nav.navbar__main ul a {
+  text-decoration: none;
+  margin-right: 32px;
+  font-family: "DynaPuff", cursive;
+  color: black;
+}
+nav.navbar__main ul a:hover {
+  color: white;
+}
+main p {
+  margin: 1.5rem 1rem;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+}
+
+/**** MAIN SLACK */
+
+div.main__slack i {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 3rem;
+  font-size: 36px;
+  color: white;
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 50%;
+  padding: 1rem;
+}
+div.main__slack i:hover {
+  color: black;
+  /* outline: dashed red; */
+}
